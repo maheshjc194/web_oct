@@ -7,43 +7,93 @@
 </head>
 <body>
     <script>
-        let age = 20
+        //DATA TYPES : Different Type of Data
+
+        //1. String : Anyhting Between quotes "Text " or 'Text'
+
+        let employename = "Pravin"
+
+
+        //2.number : +ve , -ve , decimal
+
+        let age = 12
         let temp = -2
-        let price = 999.9
-        
-        //boolean : true or fales
-        let  loginstatus = false
-        let Netflix = true
+        let price = 99.99
 
-        //undefined - no valuee
-        let name
 
-        // null - empty
-        let scoere = null
+        //3. Boolean : true or false
 
-        //output will be given - object for null type - due to bug(error)in js
+        let LoginStatus = false
 
-        //multiple data
-        //1.array:help us to store multiple data ,only in js you can store data mof different data btypes together
+        let NetflixSub =  true //Boolean
 
-        let stiudents = ["mahesh","chethan","nandhish"]
 
-         //employee details
-        let employee ={
-            name : "abc",
-            email:"abc@exampole.com"
-            salary:20000,
-            LoginStatus : true,
+        //4 undefined - No Value is Assigned
+        let name 
 
-            console.log(employee)
-            console.log(employee.salary)
+        //5 null - EMPTY
+
+        let score = null
+
+        //Output will be given as - object for null data type- Due to bug(error) in jS
+
+
+        //MULTIPLE DATA 
+
+        //1. Array : Help us to store Multiple Data , Only in js you can store data of diffrent data types together
+        //Symbol :  [ ] sqaure bracket
+        //Rule : Index No(Position No of Data) Starts with ZERO
+
+        let students = ["Thanshuree" , "Aditya", "Kavitha","Lakshay" , 12345 , true]
+
+        console.log(students)
+
+         //ArrayName[IndexNo]
+        console.log(students[3])
+
+
+        //2. Object : Collection of Data
+        //  SYymbol { key:value pair   }
+
+        let employee = {
+            name:"Aditya" ,
+            email:"abc@gmail.com" ,
+            salary:50000,
+            loginStatus : true
         }
+
+      console.log(employee)
+
+      //Access - objectName.keyname
+      console.log(employee.salary)
+
+
+
+      //Cafe Menu 
+      // food items - multiple Items - Tea- price , quanity , decsiption       , coffee- price , quanity , decsiption , cookie , cake
+
+      let menu = [
+
+        {name:'Tea' , price:100 , quanity:1},
+
+        {name:'Coffee' , price:150 , quanity:1},
+        
+        {name:'Cookie' , price:120 , quanity:2},
+      
+      ]
+
+
+
+
+
+
+
+        
+
 
 
 
 
     </script>
-    
-    
 </body>
 </html>
